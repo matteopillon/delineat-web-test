@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://delineat.com/categories/</loc>
+    <loc>https://matteopillon.github.io/delineat-web-test/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://delineat.com/en/categories/"
+                href="https://matteopillon.github.io/delineat-web-test/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://delineat.com/categories/"
+                href="https://matteopillon.github.io/delineat-web-test/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://delineat.com/</loc>
+    <loc>https://matteopillon.github.io/delineat-web-test/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://delineat.com/en/"
+                href="https://matteopillon.github.io/delineat-web-test/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://delineat.com/"
+                href="https://matteopillon.github.io/delineat-web-test/"
                 />
   </url>
   
   <url>
-    <loc>https://delineat.com/tags/</loc>
+    <loc>https://matteopillon.github.io/delineat-web-test/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://delineat.com/en/tags/"
+                href="https://matteopillon.github.io/delineat-web-test/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://delineat.com/tags/"
+                href="https://matteopillon.github.io/delineat-web-test/tags/"
                 />
   </url>
   
