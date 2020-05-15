@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://delineat.com/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://delineat.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://delineat.com/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://delineat.com/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://delineat.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://delineat.com/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://delineat.com/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://delineat.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://delineat.com/en/tags/"
+                />
+  </url>
+  
+</urlset>
