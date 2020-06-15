@@ -1,0 +1,25 @@
+body {
+    
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+div {
+    margin: 10px;
+    width: 100%;
+}
+
+table{
+    margin: 10px;
+    text-align: left;
+}
+
+th{
+    padding: 5px;
+    background-color: darkgray;
+    color: white;
+    border: 1px solid darkgray;
+}
+
+td{
+    padding: 5px;
+}

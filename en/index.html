@@ -21,9 +21,9 @@
             dl = l != 'dataLayer' ? '&l=' + l : '';
         j.async = true;
         j.src =
-            'https://www.googletagmanager.com/gtm.js?id=GTM-000000' + i + dl;
+            'https://www.googletagmanager.com/gtm.js?id=GTM-M35C33V' + i + dl;
         f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-000000');
+    })(window, document, 'script', 'dataLayer', 'GTM-M35C33V');
 </script>
 
 
@@ -229,6 +229,17 @@
 
     
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168990387-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168990387-1');
+</script>
+
+
+
 </head>
 
 <body>
@@ -267,7 +278,7 @@
           
           <li class="nav-item">
             <a data-scroll class="nav-link" href="https://matteopillon.github.io/delineat-web-test"
-              >SERVICES</a
+              >SOLUTIONS</a
             >
           </li>
           
@@ -370,15 +381,17 @@
 	
 	
 <section class="section section--border-bottom rad-animation-group" id="solutions">
-    <div class="container rad-fade-down">
-        <div class="row d-flex flex-column-reverse flex-md-row">
-    
-          <div class="col-12 col-md-12 my-auto my-auto">
-            <h2>Solutions</h2>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZpoEfMLQAPQ" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+
+      <div class="col-12 col-md-12 my-auto my-auto">
+        <h2>Solutions</h2>
+        <div class="col-12 text-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/oPFDYXfe5Rc" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
+    </div>
 </section>
 
 	
@@ -784,13 +797,78 @@
                     <span>Delineat Srl<br />Via P. Fabrizio 6/2<br /> 31046 Oderzo(TV)</span>
                 </div>
             </div>
+            <div class="col-12 text-center">
+                <a class="linkedin" href="https://www.linkedin.com/company/delineat-srl/" target="_blank">
+                    <img src="img/LI-In-Bug.png" alt="LinkedIn">
+                </a>
+            </div>
         </div>
+        
     </div>
+    
 </section>
 
 	
 	
 
+	
+	<div class="alert text-center cookiealert" role="alert">
+    Questo sito web utilizza cookie tecnici e previo il Suo consenso, cookie di profilazione, nostri e di terze parti. Chiudendo questo banner, scorrendo questa pagina o cliccando qualunque suo elemento acconsente all&#39;uso dei cookie. <a href="https://matteopillon.github.io/delineat-web-test/consent/en.html" target="_blank">Leggi la nostra Cookie Policy</a>
+
+    <button type="button" class="btn btn-primary btn-sm acceptcookies">
+        Accetto
+    </button>
+</div>
+<script type="text/javascript">
+    (function () {
+        "use strict";
+
+        var cookieAlert = document.querySelector(".cookiealert");
+        var acceptCookies = document.querySelector(".acceptcookies");
+
+        if (!cookieAlert) {
+            return;
+        }
+
+        cookieAlert.offsetHeight; 
+
+        
+        if (!getCookie("acceptCookies")) {
+            cookieAlert.classList.add("show");
+        }
+
+        
+        
+        acceptCookies.addEventListener("click", function () {
+            setCookie("acceptCookies", true, 365);
+            cookieAlert.classList.remove("show");
+        });
+
+        
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+    })();
+</script>
 	
 
 	<footer class="footer">
@@ -814,11 +892,11 @@
         </li>
         
         <li class="nav-item">
-          <a data-scroll class="nav-link" href="#services">SERVICES</a>
+          <a data-scroll class="nav-link" href="#solutions">SOLUTIONS</a>
         </li>
         
         <li class="nav-item">
-          <a data-scroll class="nav-link" href="#contact"></a>
+          <a data-scroll class="nav-link" href="#contact">PARLIAMONE</a>
         </li>
         
       </ul>
