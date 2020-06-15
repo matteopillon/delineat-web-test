@@ -82,20 +82,47 @@ h2::before {
 
 .author {
     text-align: right;
-    color: #333;
+    color: #eee;
     font-size: 15px;
     margin-top: -40px;
-}
-
-.icon-quote {
-    color: #e93e34;
-    font-size: 40px;
 }
 
 .quote{
     background-color: #e93e34;
     color: white;
+    transform: skew(-10deg); /* SKEW */
+    position: relative;
+    padding-left: 20px;
 }
+
+.quote-content
+{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.quote-icon {
+    font-family:rad-fonts;
+    font-size: 70px;
+    color: white;
+    margin: 0px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+}
+
+.quote-icon-start{
+    top: -20px;
+    left: 20px;
+}
+
+.quote-icon-end{
+    bottom: 20px;
+    right: 20px;
+}
+
+.quote-icon-end {
+    content: '\201e'; } /* '' */
 
 #portfolio img {
     max-height: 300px;
