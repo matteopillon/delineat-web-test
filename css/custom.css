@@ -89,6 +89,12 @@ h2::before {
 
 .icon-quote {
     color: #e93e34;
+    font-size: 40px;
+}
+
+.quote{
+    background-color: #e93e34;
+    color: white;
 }
 
 #portfolio img {
