@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth
+}
+
 .header .navbar-brand span:nth-child(1) {
     font-size: 35px;
 }
